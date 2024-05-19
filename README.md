@@ -43,6 +43,16 @@ Para clonar o repositório, utilize o seguinte comando no seu terminal:
 - Abra o arquivo codigo.ino na ide do arduino
 - Insira os valores do seu wi-fi e token ubidots
 
+### Configuração e instalação do ESP32 na IDE do arduino
+
+Na IDE do Arduino siga os seguintes passos:
+- Arquivo > Preferências > URLs Adicionais de Gerenciadores de Placas
+- Insira a URL para o pacote esp32: https://dl.espressif.com/dl/package_esp32_index.json
+- Clique em OK para salvar
+
+Para instalar o ESP32 basta ir em na IDE do arduino em Ferramentas > Placa > Gerenciador de Placas > digitar ESP32 na barra de pesquisa. Encontrar o pacote chamado "esp32 by Espressif Systems" clicar em instalar.
+Para completar selecione a placa e uma porta COM associada ao ESP32
+
 ### Configuração Ubidots
 
 Para tal deverá ser criado uma conta no ubidots. Após criar uma conta no ubidots, siga os passos a seguir:
